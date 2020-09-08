@@ -1,0 +1,241 @@
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+a{
+    text-decoration: none;
+}
+#about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+
+}
+
+.about-details{
+
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+    top: 25vh;
+
+}
+.about-details h1 {
+    padding: 20px 0px;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.about-details h1 span{
+    color: deepskyblue;
+}
+.about-details h4{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.about-details p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*.my-img img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 5vh;
+    left: 80vw;
+    box-sizing: border-box;
+}*/
+
+
+/*============================    responsive =============================*/
+
+
+@media all and (max-width: 320px){
+
+    .about-details{
+        width: 80vw;
+        left: 10vw;
+        top: 10vh;
+        text-align: center;
+
+
+    }
+    .about-details h1{
+        font-size: 2.5rem;
+        padding-top: 10px;
+
+
+    }
+    .about-details h4{
+        font-size: 22px;
+
+
+    }
+    .about-details p{
+        font-size: 18px;
+        line-height: normal;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+
+
+    .about-details {
+        width: 80vw;
+        left: 10vw;
+        top: 15vh;
+        text-align: center;
+
+    }
+
+    .about-details h1 {
+        font-size: 2.5rem;
+        padding-top: 10px;
+
+
+    }
+
+    .about-details h4 {
+        font-size: 22px;
+
+
+    }
+
+    .about-details p {
+        font-size: 18px;
+        ine-height: 20px;
+    }
+
+}
+
+@media all and ( min-width: 375px ) and (max-width: 425px ) {
+
+    .about-details{
+        width: 80vw;
+        left: 10vw;
+        top: 10vh;
+        text-align: center;
+
+    }
+    .about-details h1{
+        font-size: 3rem;
+        padding-top: 50px;
+        padding-top: 10px;
+
+
+    }
+    .about-details h4{
+        font-size: 25px;
+
+
+    }
+    .about-details p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
+
+
+
+@media all and (min-width: 425px) and ( max-width: 579px){
+
+    .about-details{
+        width: 80vw;
+        left: 10vw;
+        top: 13vh;
+        text-align: center;
+    }
+    .about-details h1{
+        font-size: 3rem;
+        padding-top: 10px;
+
+
+    }
+    .about-details h4{
+        font-size: 25px;
+        padding-bottom: 40px;
+
+
+    }
+    .about-details p{
+        font-size: 22px;
+
+    }
+}
+
+@media all and (min-width: 579px) and ( max-width: 768px){
+
+    .about-details{
+        width: 80vw;
+        left: 10vw;
+        top: 15vh;
+        text-align: center;
+
+    }
+    .about-details h1{
+        font-size: 3rem;
+    }
+    .about-details h4{
+        font-size: 30px;
+        padding-bottom: 30px;
+
+    }
+    .about-details p{
+        font-size: 22px;
+        line-height: normal;
+    }
+
+}
+@media all and (min-width: 768px) and ( max-width: 920px){
+
+    .about-details{
+        width: 80vw;
+        text-align: center;
+        top: 13vh;
+        left: 10vw;
+
+    }
+    .about-details h1{
+        font-size: 3rem;
+    }
+    .about-details h4{
+        font-size: 27px;
+        padding-bottom: 30px;
+
+    }
+    .about-details p{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+@media all and (min-width: 920px) and ( max-width: 1024px) {
+    .about-details{
+        width: 80vw;
+        top: 13vh;
+        text-align: center;
+        right: 10vw;
+
+    }
+    .about-details h1{
+        font-size: 3.5rem;
+    }
+    .about-details h4{
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+
+    }
+    .about-details p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+}
+
+
+

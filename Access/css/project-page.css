@@ -1,0 +1,232 @@
+#projects {
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background-color: white;
+}
+
+#projects > h1 {
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    top: 100px;
+
+}
+
+h1 > span {
+    color: deepskyblue;
+}
+
+.projects-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top:100px;
+}
+
+.extra-box{
+    display: none;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.box-contain {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #2B2B2B;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.box-contain > img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-name {
+    color: white;
+    background-color: #151515;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.box-contain:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+
+}
+
+/*------------------- resopnsive  ----------------------------*/
+
+@media all and (max-width: 320px) {
+
+    #projects > h1 {
+
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        top: 80px;
+    }
+    .projects-container{
+        top: 0px;
+    }
+
+    .box-contain {
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        top: 7rem;
+    }
+
+    .box-name {
+        display: none;
+    }
+    .extra-box{
+        display: flex;
+        padding-top: 20px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+    #projects > h1 {
+
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        top: 80px;
+    }
+    .projects-container{
+        top: 0px;
+    }
+
+    .box-contain {
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        top: 7rem;
+    }
+
+    .box-name {
+        display: none;
+    }
+    .extra-box{
+        display: flex;
+        padding-top: 20px;
+    }
+}
+
+@media all and ( min-width: 375px ) and (max-width: 425px ) {
+
+    #projects > h1 {
+
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        top: 80px;
+    }
+    .projects-container{
+        top: 0px;
+    }
+
+    .box-contain {
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        top: 7rem;
+    }
+
+    .box-name {
+        display: none;
+    }
+    .extra-box{
+        display: flex;
+        padding-top: 20px;
+    }
+}
+@media all and (min-width: 425px) and ( max-width: 579px){
+    #projects > h1 {
+
+        font-size: 3rem;
+        letter-spacing: 2px;
+        top: 80px;
+        padding-bottom: 30px;
+    }
+
+    .box-contain {
+        width: 150px;
+        height: 200px;
+        margin: 10px;
+        top: 0;
+    }
+
+    .box-name {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    .extra-box{
+        display: none;
+    }
+}
+@media all and (min-width: 579px) and ( max-width: 768px){
+    #projects > h1 {
+
+        font-size: 3rem;
+       padding-bottom: 30px;
+    }
+
+    .box-contain {
+        width: 200px;
+        height: 250px;
+        margin: 15px;
+    }
+
+
+    .extra-box{
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px) and ( max-width: 920px){
+    #projects > h1 {
+
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    .box-contain {
+        width: 250px;
+        height: 250px;
+        margin: 15px;
+    }
+
+    .extra-box{
+        display: none;
+    }
+}
+@media all and (min-width: 920px) and ( max-width: 1024px) {
+    #projects > h1 {
+
+        font-size: 3rem;
+        padding-bottom: 30px;
+    }
+
+    .box-contain {
+        width: 250px;
+        height: 250px;
+        margin: 15px;
+    }
+
+    .extra-box {
+        display: none;
+    }
+}

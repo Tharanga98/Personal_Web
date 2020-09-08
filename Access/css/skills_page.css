@@ -1,0 +1,223 @@
+
+#skills{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2rem;
+    background-color: #2B2B2B;
+
+
+
+}
+#skills h1{
+    position: relative;
+    text-align:center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 2rem;
+
+}
+#skills>h1>span{
+    color: deepskyblue;
+}
+.skill-contenar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.skill-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+
+.skill-name{
+
+    font-size: 1rem ;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+
+.skill-rang{
+    width: 700px;
+	background: white;
+	display: block;
+	height: 9px;
+	border: 2px solid deepskyblue;
+	border-radius: 3px;
+	box-shadow: 0 0 5px deepskyblue;
+	position: relative;
+
+}
+
+.span-rang{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: deepskyblue;
+    animation: skill-animate 5s ease-in-out forwards;
+    border-radius: 20px;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+}
+
+@keyframes skill-animate {
+
+    from{
+        width: 0;
+    }
+}
+
+
+
+
+/*---------------------------responsive-------------------------------*/
+
+
+
+@media all and (max-width: 320px){
+
+    #skills h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 5vw;
+    }
+    .skill-rang{
+        width: 200px;
+    }
+    .skill-item{
+        padding: 10px 0px;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 375px){
+
+      #skills h1{
+        font-size: 3rem;
+          padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 5vw;
+    }
+    .skill-rang{
+        width: 250px;
+    }
+    .skill-item{
+        padding: 10px 0px;
+    }
+}
+
+
+@media all and ( min-width: 375px ) and (max-width: 425px ) {
+
+
+      #skills h1{
+        font-size: 3rem;
+          padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 5vw;
+    }
+    .skill-rang{
+        width: 300px;
+    }
+
+    .skill-item {
+        padding: 10px 0px;
+    }
+
+}
+
+@media all and (min-width: 425px) and ( max-width: 579px){
+
+
+    #skills h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 5vw;
+    }
+    .skill-rang{
+        width: 350px;
+    }
+    .skill-item{
+        padding: 10px 0px;
+    }
+}
+
+@media all and (min-width: 579px) and ( max-width: 768px){
+
+
+    #skills h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 10vw;
+    }
+    .skill-rang{
+        width: 450px;
+    }
+    .skill-item{
+        padding: 10px 0px;
+    }
+}
+
+@media all and (min-width: 768px) and ( max-width: 920px){
+
+    #skills h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 10vw;
+    }
+    .skill-rang{
+        width: 500px;
+    }
+    .skill-item{
+        padding: 12px 0px;
+    }
+}
+
+@media all and (min-width: 920px) and ( max-width: 1024px) {
+    #skills h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+
+    }
+    .skill-contenar{
+        left: 10vw;
+    }
+    .skill-rang{
+        width: 500px;
+    }
+    .skill-item{
+        padding: 12px 0px;
+    }
+}
